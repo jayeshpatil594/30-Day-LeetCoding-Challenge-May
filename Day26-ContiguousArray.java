@@ -1,5 +1,6 @@
 class Solution {
     public int findMaxLength(int[] nums) {
+        //Time : O(n) Space : O(n)
         Map<Integer,Integer> map=new HashMap<>();
         int maxlen=0;
         int count=0;
